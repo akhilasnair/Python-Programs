@@ -27,6 +27,7 @@ Input Format
 
 The first line contains 2 space separated integers  which is the no of lists to be entered and the M value
 Then input the elements in the list
+
 Sample Input
 3 1000 ( 3 lists, M value is 1000)
 2 5 4   (1st list contain 2 elements- 5,4)
