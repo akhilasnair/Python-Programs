@@ -15,8 +15,8 @@ def checker(machinelist, usrlist):
 #fire ball function
 def fireball():
     fireball_result = [[] for i in range(3)]
-    fireball_number = 1 #random.sample(range(0,10),1)
-    #fireball_number = fireball_number[0]
+    fireball_number = random.sample(range(0,10),1)
+    fireball_number = fireball_number[0]
     for i in range(3):
         temp = list(lottolist)
         temp[i] = fireball_number
@@ -39,7 +39,7 @@ def fireball():
 
 
 # This is the pick 3 lottery result for the weak
-lottolist = sorted(random.sample(range(0,3),3))
+lottolist = sorted(random.sample(range(0,10),3))
 #user gets three picks which means user get 3 tickets against the lottory result.
 #initializing that ticket array. This is a list of list
 tickets = [[] for i in range(3)]
