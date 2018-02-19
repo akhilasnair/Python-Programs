@@ -1,7 +1,3 @@
-#asudheeshnair_lab2_513.py
-#Akhila Sudheesh Nair
-#Date: 2/07/2018
-#Course Number: ITMD-513
 import random
 import datetime
 def checker(machinelist, usrlist):
@@ -79,8 +75,3 @@ elif userinput == 0:
         print("nice try, better luck next time")
         print("your tickets are {} \n pick 3 lotto result is {}".format(tickets,lottolist))
 
-print("*"*30)
-print("asudheeshnair_lab2_513.py")
-print("Akhila Sudheesh Nair")
-print(datetime.datetime.now())
-print("Course Number: ITMD-513")
